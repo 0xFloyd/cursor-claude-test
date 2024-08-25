@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChatGPT Clone with Cursor + Claude 3.5 Sonnet
 
-## Getting Started
+This project demonstrates the power of AI-assisted development by recreating the ChatGPT web application using only natural language prompts with [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) in the [Cursor IDE](https://www.cursor.com/).
 
-First, run the development server:
+## Inspiration
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Heavily inspired by [@mcckay](https://twitter.com/mcckay) and his YouTube video: [How To Build An AI Chat App With Cursor Using Natural Language](https://youtu.be/9yS0dR0kP-s?si=AQ5pIYQzhyuETUSm)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Built using Next.js, the [Vercel AI SDK](https://sdk.vercel.ai/), and the [OpenAI API](https://platform.openai.com/)
+- Developed entirely through natural language prompts to Claude 3.5 Sonnet in Cursor IDE
+- Minimal manual code changes, focusing on [applying AI-suggested code changes without manual edits](https://www.cursor.com/features)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Streaming message support
+- Multiple chat sessions
+- Local storage for chat history
+- Responsive UI similar to ChatGPT
 
-To learn more about Next.js, take a look at the following resources:
+## Development Process
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The development flow consisted of:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Using Cursor IDE and its chat interface with Claude 3.5 Sonnet
+2. Articulating features and bugs in natural language
+3. Applying AI-suggested code changes without manual edits
 
-## Deploy on Vercel
+This approach proved highly effective for both implementing new features and debugging existing code.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Local Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To run this project locally:
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Set up your OpenAI API key:
+   - Get your API key from [OpenAI's platform](https://platform.openai.com/docs/overview)
+   - Create a `.env` file based on `.env.example` and add your API key
+4. Start the development server:
+   ```
+   npm run dev
+   ```
+
+## For Non-Technical Users
+
+If you're not familiar with the technical aspects, you can ask the AI to explain the code changes and functionality in simpler terms. Just prompt with "I'm not technical, can you explain what you did here?"
+
+## Conclusion
+
+This project showcases the potential of AI-assisted development, demonstrating that complex web applications can be built primarily through natural language interaction with AI models.
