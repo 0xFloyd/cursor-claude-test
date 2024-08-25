@@ -1,5 +1,10 @@
 # ChatGPT Clone with Cursor + Claude 3.5 Sonnet
 
+<video width="100%" controls>
+  <source src="https://github.com/0xFloyd/cursor-claude-test/blob/main/cursor-claude.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 This project demonstrates the power of AI-assisted development by recreating the ChatGPT web application using only natural language prompts with [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) in the [Cursor IDE](https://www.cursor.com/).
 
 ## Inspiration
