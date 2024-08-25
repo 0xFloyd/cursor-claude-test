@@ -4,6 +4,8 @@
 
 This project demonstrates the power of AI-assisted development by recreating the ChatGPT web application using only natural language prompts with [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) in the [Cursor IDE](https://www.cursor.com/).
 
+**❗ NO MANUAL CODING OR EDITS ALLOWED ❗**
+
 ## Inspiration
 
 Heavily inspired by [@mcckay](https://twitter.com/mcckay) and his YouTube video: [How To Build An AI Chat App With Cursor Using Natural Language](https://youtu.be/9yS0dR0kP-s?si=AQ5pIYQzhyuETUSm)
