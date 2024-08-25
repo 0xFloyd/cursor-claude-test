@@ -1,4 +1,4 @@
-# ChatGPT Clone with Cursor + Claude 3.5 Sonnet
+# ChatGPT Clone with Cursor + Claude 3.5 Sonnet - NO MANUAL CODING ALLOWED❗
 
 ![Cursor Claude Demo](https://github.com/0xFloyd/cursor-claude-test/blob/main/cursor-claude-gif.gif)
 
